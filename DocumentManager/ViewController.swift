@@ -16,21 +16,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = "https://s3-us-west-2.amazonaws.com/mob3/image_collection.json"
-        NetworkLayer.shared.getCollections(url: url) { (collections) in
-            NetworkLayer.shared.downloadZipForCollection(collection: collections[0], completionHandler: { (path) in
-                let filePath = DocumentManager.shared.unzipFile(filePath: path)
-                if let pathString = filePath?.appendingPathComponent("forest/_preview.png").absoluteString {
-                    print("Image Path \(pathString)")
-                    print("Image loading")
-                    let image = UIImage(contentsOfFile: pathString)
-                    self.imageView.image = image
-                    let myCollection = collections[0]
-                    
-                    self.viewCollections.append(Collection(collection_name: myCollection.collection_name, zipped_images_url: myCollection.zipped_images_url, unzippedImageURL: filePath))
-                }
-            })
-        }
     }
     
     func getPreviewImage() -> URL? {

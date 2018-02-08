@@ -15,6 +15,10 @@
 		C439D4D820169E7700640F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C439D4D620169E7700640F6E /* LaunchScreen.storyboard */; };
 		C439D4E020169FDC00640F6E /* CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C439D4DF20169FDC00640F6E /* CollectionType.swift */; };
 		C439D4E22016ABA400640F6E /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C439D4E12016ABA400640F6E /* NetworkLayer.swift */; };
+		C4869EAB202908030033B09D /* ImagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4869EAA202908030033B09D /* ImagesTableViewController.swift */; };
+		C4869EAD2029082C0033B09D /* ImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4869EAC2029082C0033B09D /* ImagesTableViewCell.swift */; };
+		C4BE6D502028310900312AE7 /* PreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE6D4F2028310900312AE7 /* PreviewTableViewCell.swift */; };
+		C4BE6D522028312000312AE7 /* PreviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE6D512028312000312AE7 /* PreviewTableViewController.swift */; };
 		C4BFF87420193E8F00736977 /* DocumentLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFF87320193E8F00736977 /* DocumentLayer.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +35,10 @@
 		C439D4D920169E7700640F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C439D4DF20169FDC00640F6E /* CollectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionType.swift; sourceTree = "<group>"; };
 		C439D4E12016ABA400640F6E /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		C4869EAA202908030033B09D /* ImagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTableViewController.swift; sourceTree = "<group>"; };
+		C4869EAC2029082C0033B09D /* ImagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTableViewCell.swift; sourceTree = "<group>"; };
+		C4BE6D4F2028310900312AE7 /* PreviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTableViewCell.swift; sourceTree = "<group>"; };
+		C4BE6D512028312000312AE7 /* PreviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTableViewController.swift; sourceTree = "<group>"; };
 		C4BFF87320193E8F00736977 /* DocumentLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +94,10 @@
 			children = (
 				C439D4CD20169E7700640F6E /* AppDelegate.swift */,
 				C439D4CF20169E7700640F6E /* ViewController.swift */,
+				C4BE6D4F2028310900312AE7 /* PreviewTableViewCell.swift */,
+				C4BE6D512028312000312AE7 /* PreviewTableViewController.swift */,
+				C4869EAA202908030033B09D /* ImagesTableViewController.swift */,
+				C4869EAC2029082C0033B09D /* ImagesTableViewCell.swift */,
 				C439D4DF20169FDC00640F6E /* CollectionType.swift */,
 				C439D4E12016ABA400640F6E /* NetworkLayer.swift */,
 				C4BFF87320193E8F00736977 /* DocumentLayer.swift */,
@@ -228,9 +240,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4BE6D502028310900312AE7 /* PreviewTableViewCell.swift in Sources */,
 				C439D4E22016ABA400640F6E /* NetworkLayer.swift in Sources */,
 				C439D4D020169E7700640F6E /* ViewController.swift in Sources */,
+				C4869EAD2029082C0033B09D /* ImagesTableViewCell.swift in Sources */,
 				C439D4CE20169E7700640F6E /* AppDelegate.swift in Sources */,
+				C4BE6D522028312000312AE7 /* PreviewTableViewController.swift in Sources */,
+				C4869EAB202908030033B09D /* ImagesTableViewController.swift in Sources */,
 				C439D4E020169FDC00640F6E /* CollectionType.swift in Sources */,
 				C4BFF87420193E8F00736977 /* DocumentLayer.swift in Sources */,
 			);
