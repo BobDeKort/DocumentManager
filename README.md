@@ -1,5 +1,6 @@
 # DocumentManager
 Document manager is a class project for MOB3
+Learning iOS app local file directory
 
 ## Project Description
 
